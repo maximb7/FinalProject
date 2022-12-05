@@ -35,6 +35,10 @@ button:hover {
     color: white;
 }
 
+a:hover{
+    color: white;
+}
+
 button:active {
     background-color: #3e8e41;
     box-shadow: 0 5px darkred;
@@ -44,14 +48,25 @@ button:active {
 ul{
     list-style-type: none;
     padding: 5px;
+    list-style-type: none;
 }
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 
 footer {
     background-color: teal;
-    height: 20px;
-    text-align: center;
+    height: 25px;
     font-family: basic-sans, sans-serif;
-    font-size: small;
+    font-size:small;
     color: white;
-    padding: 10px 0px;
+    text-align: center;
+    padding: 3px;
+}
+
+.section-one{
+    height: 500px;
 }
