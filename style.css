@@ -1,0 +1,57 @@
+body{
+    background-color:blanchedalmond;
+}
+
+h1{
+    font-family: basic-sans,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    text-align: center;
+    font-size: 50px;
+}
+
+
+.container-navigation{
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+button{
+    border: none;
+    background-color: blanchedalmond;
+    border-radius: 5px;
+    font-family: basic-sans, sans-serif;
+    font-size: larger;
+    padding: 20px;
+    margin: 30px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: teal;
+    color: white;
+}
+
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px darkred;
+    transform: translateY(4px);
+}
+
+ul{
+    list-style-type: none;
+    padding: 5px;
+}
+
+footer {
+    background-color: teal;
+    height: 20px;
+    text-align: center;
+    font-family: basic-sans, sans-serif;
+    font-size: small;
+    color: white;
+    padding: 10px 0px;
+}
