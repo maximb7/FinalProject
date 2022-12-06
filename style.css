@@ -80,10 +80,13 @@ h4{
     text-align: center;
 }
 
+.small-text{
+    font-size: 8px;
+}
 
 p{
     font-family: basic-sans, sans-serif;
-    font-size: small;
+    font-size: 14px;
     text-align: center;
 }
 
@@ -120,5 +123,6 @@ p{
     width: 297px;
     height: 420px;
 }
+
 
 
