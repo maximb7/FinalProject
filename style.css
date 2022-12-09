@@ -219,6 +219,20 @@ img{
     text-align: center;
 }
 
-a.ws1{
-    text-decoration: underline;
+.ws2and3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
 }
+
+.ws4and5{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    text-align: center;
+}
+
+
