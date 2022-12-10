@@ -68,11 +68,24 @@ footer {
 }
 
 .section-one{
-    height: 600px;
+    height: 100%;
     font-family: basic-sans, sans-serif;
     font-size: large;
     text-align: center;
     box-shadow: none;
+    padding: 10px;
+}
+
+.section-two{
+    font-family: basic-sans, sans-serif;
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    padding: 10px;
+    height: 100%;
 }
 
 h4{
